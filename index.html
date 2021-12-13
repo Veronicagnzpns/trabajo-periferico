@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periferico Impresora 3D</title>
+    <link rel="shortcut icon" href="./imagenes/favicon (2).ico" type="image/x-icon">
+    <script src="./java/trabajo.js"></script>
+    <link rel="stylesheet" href="./styles/trabajo.css">
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#hero" class="active">Home</a>
+                <a href="#introduccion">Introdution</a>
+                <a href="#tipos">Types</a>
+                <a href="#funcionamiento">Operation</a>
+                <a href="#instalacion">Installation</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  &#9776;
+                </a>
+              </div>
+           
+        </nav>
+        <!--- contiene la imagen principal-->
+        <section id="hero">
+            <h1>Printer</h1>
+            <span><a href="#">&#9757;</a></span>
+
+        </section>
+        <!--- es un contenido de texto con ilustración-->
+        <section id="introduccion" >
+            <h1>INTRODUCTION</h1>
+            <p> They are a type of machinery with the ability to help us build certain structures, very similar a good sculptor could get carving a stone. </p>
+            
+            <p>A 3D printer is a device capable of reproducing a three-dimensional solid object using diferents materials, the design of which is made on a computer. The process consists of adding material layer by layer and from the bottom to top.</p>
+
+            <p>In the industry offers great advantages, mainly to the automotive and aerospace sectors, among others. It serves to streamline processes and make manufacturing more efficient. Learn about the applications that can bring great profitability to your projects.</p>
+       
+        <!-----ruptura del float-->
+        <div class="corta-float"></div>
+        </section >
+
+      
+        <section id="tipos">
+            <h1>TYPES</h1>
+            <div class="cuarto" id="primerafoto">
+                <img src="./imagenes/deporestereografia.png" alt="">
+                <h2>Impresoras 3D por Estereolitografía (SLA)</h2>
+            </div>
+            <div class="cuarto" id="segundafoto">
+                <img src="./imagenes/impresionpordeposiciondematerialfundido.png" alt="">
+                <h2>Impresión por deposición de material fundido (FDM)</h2>
+            </div>
+            <div class="cuarto"  id="tercerafoto">
+                <img src="./imagenes/impresora-3d-ender-3.png" alt="">
+                <h2>Impresoras 3D por Inyección.</h2>
+            </div>
+            <div class="cuarto" id="cuartafoto">
+                <img src="./imagenes/sinterizacionselectivaporlaser.jpg" alt="">
+                <h2>Impresoras 3D de Sinterización Selectiva por Láser (SLS)
+                </h2>
+            </div>
+            <!-----ruptura del float-->
+            <div class="corta-float"></div>
+        </section>
+
+
+        <section id="funcionamiento">
+            <h1>OPERATION</h1>
+            <p>3D printers to create a physical model of a design,they  create layers continuously and successively until the complete and exact creation of the design in its 3 dimensions width, length and height.</p>
+            
+            <p>The process by which printers create these layered objects is called the Additive Process.</p>
+            
+            <p>Actually, to go hand in hand with technological advances in terms of 3D printers, accessories have been created that make this printing process easier, such as 3D scanners, which allow an object to be scanned in all its dimensions. and print it immediately and identical to the other.</p>
+
+            <img id="izquierda" src="./imagenes/impresion-en-3d.jpg" alt="">
+
+                <p>In the previous image we can see 3 figures.</p> 
+                <p>The first is the one that we draw ourselves on paper, for example, of the object that we want to print in its 3 dimensions</p>
+                <p> Then, with a CAD program, we design that object on our computer, which would be the second figure</p> 
+                <p> Finally, we separate that object into layers to print layer by layer in the 3-dimensional printer, which is what we see in the third figure.</p>
+            
+            <div class="corta-float"></div>
+                
+        </section>
+
+        <section id="instalacion">
+            <h1>INSTALLATION</h1>
+            <h2>Windows</h2>
+            <p>Go to Windows 10 and go to Settings - Devices - Printer scanners.</p>
+            <p> Press Add a printer or scanner.</p>
+            <p> Select the 3D printer and press Add Device. The printer will install automatically.</p>
+            <h2>Thinkercard</h2>
+           <img id="izquierda1" src="./imagenes/Tinkercad.jpg" alt="">
+            
+                <p>Tinkercad is an online tool offered by Autodesk.</p> 
+                <p>It is used for free and only requires creating a user account.</p>
+                <p> Since it became available in 2011, it has become a popular platform for creating models for 3D printing, as well as an entry-level introduction to constructive solid geometry in schools</p>
+                <p>In this app there different ways to export files as they are</p>
+                <div id="lista"><li>.obj: It allows us to save it to edit it in different programs later and saves the information of the different colors</li>
+                <li>.stl:It is the standard design format, it does not save color information but it has quite a bit of quality.</li>
+                <li>.glb: compact files that is perfect for sharing with colleagues</li>
+                <li>.svg: it is for laser printers</li></div>
+            
+            
+        
+        <!-----ruptura del float-->
+        <div class="corta-float"></div>
+
+        </section>
+
+        <footer>
+            <p>Author: Verónica González Pons</p>
+            <p>Class: Lenguaje de marcas</p>
+            <p>School: IES Campanillas</p>
+            <p>Email:<a href="veronica.gonzalez.fp@iescampanillas">  veronica.gonzalez.fp@iescampanillas.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>

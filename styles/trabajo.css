@@ -1,0 +1,198 @@
+/***********estilo general***************/
+@font-face {
+    font-family: titulo;
+    src: url('../fonts/Coco-Gothic-Heavy-Italic-trial.ttf');
+
+}
+@font-face {
+    font-family: texto;
+    src: url('../fonts/JosefinSans-Italic.ttf');
+}
+body{background-image:url('../imagenes/circuit-chip-neon-abstraction.jpg');
+    margin: 0;
+    padding: 0;}
+#container {width: 90%;
+    /** background-color: blanchedalmond;/*****LULOQUI*****/
+     margin: auto;
+     background-color: #8b9298;
+    }
+
+/**********************estilo nav************************/    
+nav{position: sticky;
+    top: 0;
+    opacity: 0.7;
+    z-index: 99;
+    font-family: titulo;}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/*
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+*/
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/**********************estilo hero************************/
+#hero{background-image: url("../imagenes/webs-descargar-archivos-stl.jpg");
+    background-size: cover;
+    background-position: center;   
+    height: 95vh;
+    position: relative;}
+
+#hero h1{font-size: 3em;
+        position: absolute;
+        font-family: titulo;
+
+        top: 0.05px;
+        left: 20px;
+        color: azure;
+        text-shadow: 5px 5px 5px black;
+        padding: 30px 50px;
+        background-color: rgba(255, 0, 0, 0.384);
+        border-radius: 20px 200px;}
+
+#hero span{font-size: 2em;
+           position: fixed;
+           bottom: 10px;
+           right: 10px;}
+/************estilo introducccion****************/
+#introduccion{font-family: texto;
+              color: white;
+            padding: 5% 8%;
+            
+            }
+#introduccion h1{font-family: titulo;
+                text-align: center;
+                font-size: 2.5em;
+                 color:    black;}
+#introduccion p{font-size: 1.25em;
+                text-align: justify;}
+#introduccion p:first-letter{font-size: 2.25em;
+                                color: black;}
+
+/************gallery**********/
+.corta-float{clear: both;}
+#tipos{padding: 5% 8%;
+      box-sizing:border-box;
+      border: 1px solid black;}
+#tipos h1{  color: black;
+            text-align: center;
+            font-size: 2.5em;
+        font-family: titulo;}
+.cuarto{width: 25%;
+        float: left;
+     
+        box-sizing:border-box;
+        padding: 2%; 
+        text-align: justify;}
+.cuarto img{width:100%;}
+.cuarto h2{font-family: runas;
+            text-align: center;
+            color: black;
+            font-family: texto;}
+#segundafoto h2{padding: 6%;}
+
+#segundafoto img{padding: 8% 2%;}
+
+#primerafoto h2{padding: 5%;}
+
+#tercerafoto h2{padding: 5%;}
+/************funcionamiento****************/
+#funcionamiento{font-family: texto;
+    color: white;
+  padding: 5% 8%;
+  
+  }
+#funcionamiento h1{  color: black;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: titulo;}
+#funcionamiento p{font-size: 1.25em;
+    text-align: justify;
+    }
+#izquierda{width: 50%;
+        float: left;
+        margin: 0.5% 2%;}
+
+/************INSTALACION****************/
+#instalacion{font-family: texto;
+    color: white;
+  padding: 5% 8%;
+  box-sizing:border-box;
+  border: 1px solid black;
+  text-align: justify;
+ font-size: 1.25em;}
+
+#instalacion h1{ color: black;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: titulo;}
+
+#instalacion h2{color: black}
+
+#izquierda1{width: 50%;
+        float: right;
+        margin: 0.5% 2%;}
+
+        #lista{margin-left: 2%;}
+/************footer****************/
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(199, 0, 0, 0.863);
+  color: white;
+}
+/************media queries****************/
+@media only screen and (max-width:850px){
+    #izquierda{width: 100%;}
+    #izquierda1{width: 100%;}
+    .cuarto{width: 50%;}}
+
+@media only screen and (max-width:450px){
+        .cuarto{width: 100%;}
+        #introduccion p{text-align: center;}
+        #instalacion h1{font-size: 1.5em;} 
+        #introduccion h1{font-size: 2em;}}
+
